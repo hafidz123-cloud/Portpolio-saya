@@ -353,4 +353,10 @@ body {
   .speak_name {
     font-size: 5px;
   }
+  .info_wrap .info_m {
+    font-size: 10px;
+  }
+  .info_wrap .info_n {
+    font-size: 7.6px;
+  }
 }
