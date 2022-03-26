@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CV Muhammad Irgi Hafidz</title>
+	<link rel="shortcut icon" href="IMG_8911.JPG">
+	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+	<link rel="stylesheet" href="gaya.css">
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$(".full_info_wrap .tabs ul li").click(function(){
+				$(".full_info_wrap .tabs ul li").removeClass("active");
+				$(this).addClass("active");
+
+				var datali = $(this).attr("data-li");
+
+				$(".full_info_item").hide();
+
+				if(datali == "portfolio"){
+					$(".portfolio").show();
+				}
+				else if(datali == "education"){
+					$(".education").show();
+				}
+				else if(datali == "contact"){
+					$(".contact").show();
+				}
+				else{
+					console.log("Loding...");
+				}
+			})
+		})
+	</script>
+</head>
+<body>
+	
+<div class="wrapper">
+   <div class="resume">
+      
+         <div class="profile_info">
+            <div class="profile_img">
+                 <img src="profile2.png" alt="profile">
+            </div>
+            <div class="data_profile">
+                    <p class="nama">Muhammad Irgi Hafidz</p>
+                    <span><i class="icon"><img style="width: 10px;" src="icon_loc.png"></i>  Ipuh, Mukomuko, Bengkulu <br></span>
+                    <span class="garis">Student from University of Technology Yogyakarta</span>
+            </div>
+       <!--      <div class="view_more_btn">
+                <a href="#">Selengkapnya</a>
+            </div> -->
+        </div>
+         <div class="perkenalan">
+            	<div class="title" style="text-align: center;">
+		           		<p class="bold">About Me</p>
+		         </div>
+		         <div class="teks">
+		         	<p>
+		         		<span style="display: inline-block; margin-left: 40px;"></span> Saya lahir dan dibesarkan di bengkulu, tepatnya kecamatan ipuh kabupaten mukomuko. Saya benar-benar terinspirasi dengan bisnis yang dikembangkan melalui teknologi serta aplikasi. Saya ingin sekali memiliki kesempatan untuk mengerjakan berbagai proyek, dengan agensi, perusahaan, atau bahkan individu. Saya sangat tertarik dengan adalah pekerjaan kustom seperti branding, desain web, desain UI/UX, desain cetak & desain offline apa pun.
+		         	</p>
+		         	<p>
+		         		<span style="display: inline-block; margin-left: 40px;"></span>Saya telah memiliki beberapa karya dalam pemrograman web. Beberapa dari karya saya dapat dilihat di menu <span><a href="#info_full" style="color: blue;" >Portfolio</a></span>. Saya memiliki Riwayat pendidikan Formal dan saya sudah mencantumkan di menu <span><a href="#info_full" style="color: blue;">Education</a></span>. Jika perlu menghubungi saya maka silahkan cek menu <span><a href="#info_full" style="color: blue;">Contact</a></span> saya selalu mencantumkan kontak saya di setiap project yang saya buat.
+		         		
+		         	</p>
+		         </div>
+            </div>
+        <table>
+        	<tr>
+        		<td>
+        		<div class="bungkus_skil">
+		        	<div class="resume_item resume_skills">
+		        	<div class="title">
+		           		<p class="bold">Skills</p>
+		         	</div>
+		         	<ul>
+		           		<li>
+		             		<div class="skill_name">HTML</div>
+		            		<div class="skill_progress">
+		               				<span style="width: 85%;"></span>
+		            		</div>
+		             		<div class="skill_per">85%</div>
+		           		</li>
+		           		<li>
+		             		<div class="skill_name">CSS</div>
+		      				<div class="skill_progress">
+		               				<span style="width: 80%;"></span>
+		             		</div>
+		             		<div class="skill_per">80%</div>
+		           		</li>
+		           		<li>
+		             		<div class="skill_name">PHP</div>
+		             		<div class="skill_progress">
+		               				<span style="width: 90%;"></span>
+		             		</div>
+		             		<div class="skill_per">90%</div>
+		           		</li>
+		           		<li>
+		            		<div class="skill_name">JAVA</div>
+		             		<div class="skill_progress">
+		               				<span style="width: 70%;"></span>
+		             		</div>
+		             		<div class="skill_per">70%</div>
+		           		</li>
+		           		<li>
+		             		<div class="skill_name">KOTLIN</div>
+		             		<div class="skill_progress">
+		               		<span style="width: 75%;"></span>
+		             		</div>
+		             		<div class="skill_per">75%</div>
+		           		</li>
+		           		<li>
+		             		<div class="skill_name">PHYTON</div>
+		             		<div class="skill_progress">
+		               		<span style="width: 60%;"></span>
+		             		</div>
+		             		<div class="skill_per">60%</div>
+		           		</li>
+		           		<li>
+		             		<div class="skill_name">SQL</div>
+		             		<div class="skill_progress">
+		               		<span style="width: 85%;"></span>
+		             		</div>
+		             		<div class="skill_per">85%</div>
+		           		</li>
+		           		<li>
+		             		<div class="skill_name">C++</div>
+		             		<div class="skill_progress">
+		               		<span style="width: 75%;"></span>
+		             		</div>
+		             		<div class="skill_per">75%</div>
+		           		</li>
+		         	</ul>
+		       </div>
+		        </div>
+        		</td>
+        		<td>
+        			<div class="bungkus_hobi">
+		        	<div class="resume_item resume_hobi">
+		        	<div class="title">
+		           		<p class="bold">Hobbies</p>
+		         	</div>
+		         	<ul>
+		           		<li>
+		             		<div class="hobi_name">MUSIK</div>
+		            		<div class="hobi_progress">
+		               				<span style="width: 95%;"></span>
+		            		</div>
+		             		<div class="hobi_per">95%</div>
+		           		</li>
+		           		<li>
+		             		<div class="hobi_name">BADMINTON</div>
+		      				<div class="hobi_progress">
+		               				<span style="width: 75%;"></span>
+		             		</div>
+		             		<div class="hobi_per">75%</div>
+		           		</li>
+		           		<li>
+		             		<div class="hobi_name">CODING</div>
+		             		<div class="hobi_progress">
+		               				<span style="width: 80%;"></span>
+		             		</div>
+		             		<div class="hobi_per">80%</div>
+		           		</li>
+		           		<li>
+		            		<div class="hobi_name">FUTSAL</div>
+		             		<div class="hobi_progress">
+		               				<span style="width: 70%;"></span>
+		             		</div>
+		             		<div class="hobi_per">70%</div>
+		           		</li>
+		           		<li>
+		             		<div class="hobi_name">GAME</div>
+		             		<div class="hobi_progress">
+		               		<span style="width: 60%;"></span>
+		             		</div>
+		             		<div class="hobi_per">60%</div>
+		           		</li>
+		           		<li>
+		             		<div class="hobi_name">BERENANG</div>
+		             		<div class="hobi_progress">
+		               		<span style="width: 85%;"></span>
+		             		</div>
+		             		<div class="hobi_per">85%</div>
+		           		</li>
+		           		<li>
+		             		<div class="hobi_name">TRAVELLING</div>
+		             		<div class="hobi_progress">
+		               		<span style="width: 75%;"></span>
+		             		</div>
+		             		<div class="hobi_per">75%</div>
+		           		</li>
+		           		<li>
+		             		<div class="hobi_name">FOTOGRAFI</div>
+		             		<div class="hobi_progress">
+		               		<span style="width: 55%;"></span>
+		             		</div>
+		             		<div class="hobi_per">55%</div>
+		           		</li>
+		         	</ul>
+		       </div>
+		        </div>
+        		</td>
+        	</tr>
+        	<tr>
+        		<td colspan="2">
+        			<div class="bungkus_speak" style="text-align: center;">
+        				<div class="resume_item resume_speak">
+        					<div class="title">
+		           				<p class="bold">Public Speaking</p>
+		         			</div>
+		         		<ul>
+		           		<li>
+		             		<div class="speak_name">
+		             			<span><img class="ikon_flag" src="indo.png"></span>
+		             			INDONESIA
+		             		</div>
+		            		<div class="speak_progress">
+		               				<span style="width: 95%;"></span>
+		            		</div>
+		             		<div class="speak_per">95%</div>
+		           		</li>
+		           		<li>
+		             		<div class="speak_name">
+		             			<span><img class="ikon_flag" src="japan.png"></span>	
+		             			JAPANESE
+		             		</div>
+		             		<div class="speak_progress">
+		               				<span style="width: 55%;"></span>
+		            		</div>
+		             		<div class="speak_per">55%</div>
+		           		<li>
+		             		<div class="speak_name">
+		             			<span><img class="ikon_flag" src="eng.png"></span>
+		             			ENGLISH
+		             		</div>
+		            		<div class="speak_progress">
+		               				<span style="width: 75%;"></span>
+		            		</div>
+		             		<div class="speak_per">75%</div>
+		           		</li>
+		           		</ul>
+        				</div>
+        			</div>
+        		</td>
+        	</tr>
+        </table>
+
+        <div class="full_info_wrap">
+            <div class="tabs">
+                <ul>
+                    <li data-li="portfolio" class="active">Portfolio</li>
+                    <li data-li="education">Education</li>
+                    <li data-li="contact">Contact</li>  
+                </ul>  
+            </div>  
+            
+            <div class="full_info" id="info_full">
+					<div class="full_info_item portfolio">
+                        <div class="title">Riwayat Project</div>
+                        <div class="info_wrap">
+                            <ul>
+                                <li>
+                                    <div class="sub_title">
+                                        Project 1
+                                    </div>
+                                    <div class="ket">
+                                    	
+                                    </div>
+                                    <div class="info_item">
+                                        <div class="info_title">
+                                            Web Informasi Pasar Senthir
+                                        </div>
+                                        <div class="data">
+                                            <span></span> Saya Pernah membuat Aplikasi Informasi seputar Pasar Senthir dengan lengkap. Metode Pengumpulan data yang saya lakukan yaitu mewawancarai mulai dari pelanggan, pedagang dan pengurus Pasar Senthir. Setelah mendapat Informasi yang lengkap dari Narasumber tadi saya langsung menulis semua informasi yang didapat ke dalam web informasi pasar Senthir yang saya buat. Namun, Web ini masih belum publish!<br>
+                                            <img class="img_projek" src="pasar.png">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="sub_title">
+                                        project 2
+                                    </div>
+                                    <div class="info_item">
+                                        <div class="info_title">
+                                            Hafidz Washbar
+                                        </div>
+                                        <div class="data">
+                                            <span></span>Hafidz Washbar adalah project tugas akhir saya dalam mata kuliah Pemrograman Web di semester 4. Saya membuat peroject ini menggunakan PHP dan sejumlah database agar pelanggan serta admin dapat memanipulasi data. Fitur yang ada pada project ini yaitu daftar member, login member, edit data member dan hapus member. Saya juga melengkapi project ini dengan fitur tentang saya agar ada yang bisa menghubungi saya jika ada kendala dalam project ini dan ada sejumlah foto di galeri. Saya juga memakai API data covid setiap provinsi agar dapat berguna bagi orang-orang untuk mengetahui data covid di provinsi mereka. Project ini sudah saya publish dengan link
+                                            <a style="color: blue" target="_blank" href="https://hafidzwashbar2.000webhostapp.com/index.php"> https://hafidzwashbar2.000webhostapp.com/index.php .</a>
+                                            <img class="img_projek" src="HafidzWashbar.png">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="sub_title">
+                                        project 3
+                                    </div>
+                                    <div class="info_item">
+                                        <div class="info_title">
+                                            Wisata Candi Borobudur
+                                        </div>
+                                        <div class="data">
+                                            <span></span>Project ini sebenarnya berkonsep sama dengan Web Informasi Pasar Senthir yang saya buat sebelumnya. Akan tetapi untuk project yang ini saya menerapkan Informasi Terbaru terus-menerus tentang Wisata Candi Borobudur ini dimulai dari jam buka, agenda acara, biaya masuk, pengenalan dan sejarah dari Wisata Candi Borobudur. Saya juga melengkapi dengan video dan photo yang menarik untuk dilihat oleh wisatawan. Di project ini saya juga meletakkan map untuk para wisatawan yang baru ingin ke Wisata Candi Borobudur. Project ini sudah sempat saya publish namun dikarenakan ada perbaikan jadi saya tarik dulu project ini.
+                                            <img class="img_projek" src="borobudur.png">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="sub_title">
+                                        Project 4
+                                    </div>
+                                    <div class="ket">
+                                    	
+                                    </div>
+                                    <div class="info_item">
+                                        <div class="info_title">
+                                            Aplikasi database IT Worker
+                                        </div>
+                                        <div class="data">
+                                            <span></span> Saya Pernah membuat Aplikasi Informasi tentang IT worker menggunakan bahasa java dan aplikasi netbeans dimana aplikasi ini adalah untuk menyimpan data dari pegawai IT dan Aplikasi ini akan otomatis mengisi gaji pegawai sesuai dengan posisi dalam pekerjaannya di Perusahaan. Aplikasi ini terhubung dengan database MySQL untuk menyimpan data - data yang dimasukkan. Namun, User juga dapat melihat, menambah, menghapus dan mengedit data sesuai dengan keinginannya. Project ini saya kerjakan dalam waktu yang singkat namun hasilnya sudah dapat dikatakan memuaskan. <br>
+                                            <img class="img_projek" src="java1.png">
+                                        </div>
+                                    </div>
+                                </li>
+                                     <li>
+                                    <div class="sub_title">
+                                        Project 5
+                                    </div>
+                                    <div class="ket">
+                                    	
+                                    </div>
+                                    <div class="info_item">
+                                        <div class="info_title">
+                                            Aplikasi Socket Programming
+                                        </div>
+                                        <div class="data">
+                                            <span></span> Aplikasi yang saya buat ini sedikit sama konsepnya dengan project 4, karena aplikasi yang saya buat ini menggunakan bahasa pemrograman java dan menggunakan aplikasi netbeans. Aplikasi Socket Programming ini merupakan aplikasi yang dapat mengirim pesan dan membalas pesan antara server dan client menggunakan ip address yaitu xampp. Saya membuat Aplikasi ini pada semester 3. <br>
+                                            <img class="img_projek" src="java2.png">
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                <div class="full_info_item education" style="display: none;">
+                  <div class="title">Riwayat Pendidikan</div>
+			         <div class="info_wrap">
+                    	<ul>
+                    		<li>
+                    			<div class="sub_title">
+                    				 2006 - 2007
+                    			</div>
+								<div class="info_item">
+									<div class="info_title">
+										TK Dharma Wanita
+									</div>
+									<div class="data">
+										<span></span>Ini adalah sekolah pertama tempat saya menimba ilmu dimana guru yang ada disana semuanya adalah wanita.
+									</div>
+								</div>
+                    		</li>
+                    		<li>
+                    			<div class="sub_title">
+                    				2007 - 2013 	
+                    			</div>
+								<div class="info_item">
+									<div class="info_title">
+										SD NEGERI 06 IPUH
+									</div>
+									<div class="data">
+										<span></span>Selanjutnya, saya masuk sekolah dasar ini dan sekolah dasar ini merupakan sekolah terbaik no.6 di kecamatan saya.
+									</div>
+								</div>
+                    		</li>
+                    		<li>
+                    			<div class="sub_title">
+                    				2013 - 2016	
+                    			</div>
+								<div class="info_item">
+									<div class="info_title">
+										MTs NEGERI 01 Mukomuko
+									</div>
+									<div class="data">
+										<span></span>Setelah lulus SD dengan nilai termasuk baik, saya masuk MTs NEGRI 01 Mukomuko dimana ini merupakan SLTP terbaik no.1 di Kabupaten saya.
+									</div>
+								</div>
+                    		</li>
+                    		<li>
+                    			<div class="sub_title">
+                    				2016 - 2019
+                    			</div>
+								<div class="info_item">
+									<div class="info_title">
+										SMA NEGERI 02 Mukomuko
+									</div>
+									<div class="data">
+										<span></span>SMA NEGERI 02 Mukomuko adalah SLTA terbaik no.2 di kabupaten saya diwaktu saya bersekolah disana. Namun sekarang sudah menjadi SMA NEGERI 01 Mukomuko
+									</div>
+								</div>
+                    		</li>
+                    		<li>
+                    			<div class="sub_title">
+                    				2019 - Sekarang
+                    			</div>
+								<div class="info_item">
+									<div class="info_title">
+										Universitas Teknologi Yogyakarta
+									</div>
+									<div class="data">
+										<span></span>Sekarang saya sedang menempuh pendidikan program studi informatika dan sekarang saya adalah mahasiswa semester 5 di UTY. UTY merupakan Universitas yang tergolong baik di provinsi Yogyakarta yang dikenal sebagai kota pelajar.
+									</div>
+								</div>
+                    		</li>
+                    	</ul>
+                    </div>
+                </div>  
+
+                <div class="full_info_item contact" style="display: none;">
+                  <div class="title">Contact Me</div>
+                        <div class="info_wrap">
+                            <ul>
+                                <li>
+                                	<span><div class="bun_i"><img class="icon" src="email.png"></div></span>
+                                    <span class="info_m">Email</span>
+                                    <span class="info_n">
+                                    	<a target="_blank" href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSGLdbRjzmxsrsLDJxGwvgzPRwRrBSNDWsxjcVXGvlBLcGDBQqjtsNhVZrNhPsWXrWKVDnGZ">mirgihafidz@gmail.com
+                                    	</a>
+                                    </span>
+                                </li>
+                                <li>
+                                	<span><div class="bun_i"><img class="icon" src="ig.png"></div></span>
+                                    <span class="info_m">Instagram</span>
+                                    <span class="info_n">
+                                    	<a target="_blank" href="https://www.instagram.com/m.irgi_hafidz/">@m.irgi_hafidz</a>
+                                    </span>
+                                </li>
+                                <li>
+                                	<span><div class="bun_i"><img class="icon" src="twitter.png"></div></span>
+                                    <span class="info_m">Twitter</span>
+                                    <span class="info_n"><a target="_blank" href="https://twitter.com/Hafidz48019178">@hafidz</a></span>
+                                </li>
+                                <li>
+                                	<span><div class="bun_i"><img class="icon" src="Whatsapp.png"></div></span>
+                                    <span class="info_m">Whatsapp</span>
+                                    <span class="info_n"><a target="_blank" href="http://wa.me/+6282299045721">+6282299045721</a></span>
+                                </li>
+                                <li>
+                                	<span><div class="bun_i"><img class="icon" src="phone.png"></div></span>
+                                    <span class="info_m">Phone</span>
+                                    <span class="info_n"><a target="_blank" href="#">+6281267805421</a></span>
+                                </li>
+                                <li>
+                                	<span><div class="bun_i"><img class="icon" src="youtube.png"></div></span>
+                                    <span class="info_m">Youtube</span>
+                                    <span class="info_n">
+                                    	<a target="_blank" href="https://www.youtube.com/channel/UC7dRvo65TwJqY09FZbE4jHw">mirgihafidz025</a>
+                                    </span>
+                                </li>
+                                <li>
+                                	<span><div class="bun_i"><img class="icon" src="fb.png"></div></span>
+                                    <span class="info_m">Facebook</span>
+                                    <span class="info_n">
+                                    	<a target="_blank" href="https://web.facebook.com/profile.php?id=100009814170926">Muhammad Irgi Hafidz</a>
+                                    </span>
+                                    
+                                </li>
+                                <li>
+                                	<span><div class="bun_i"><img class="icon" src="reddit.png"></div></span>
+                                    <span class="info_m">Reddit</span>
+                                    <span class="info_n"><a target="_blank" href="#">Hafidz25</a></span>
+                                </li>
+                            </ul>
+                    </div>
+                </div>  
+            </div> 
+        </div>
+     
+   		</div>
+	</div>
+</div>
+</body>
+</html>
