@@ -1,148 +1,141 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
 /*font-family: trade winds; */
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Montserrat:wght@100&family=Open+Sans&family=Trade+Winds&display=swap');
 
 /* Mengatur gaya keseluruhan */
- html {
-        scroll-behavior: smooth;
-    }
+html {
+  scroll-behavior: smooth;
+}
 * {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-    box-sizing: border-box;
-    font-family: 'Merriweather', sans-serif;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: 'Merriweather', sans-serif;
 }
 
 /*mengatur Body*/
 body {
-    background: #F2DF80;
-    color: #0D0D0D;
-    font-size: 15px;
-    letter-spacing: 1.5px;
-    background-image: url("belakang.png");
-    background-size: cover;
-    background-repeat: repeat;
-    background-position: left;
-    background-attachment: fixed;
-    height: 100%;
-
+  color: #0d0d0d;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  background-image: url('belakang.png');
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: left;
+  background-attachment: fixed;
+  height: 100%;
 }
 
 /*setting wrapper*/
 .wrapper {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 /*setting resume*/
 .resume {
-    width: 530px;
-    margin: 10px auto;
-    background: #F2F2F2;
-    padding: 15px;
-    border-radius: 3px;
-    box-shadow: 3px 3px 4px rgba(0, 0, 0, 1.1201) , -3px -3px 4px rgba(0, 0, 0, 1.1201);
+  width: 530px;
+  margin: 10px auto;
+  background: #f2f2f2;
+  padding: 15px;
+  border-radius: 3px;
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 1.1201), -3px -3px 4px rgba(0, 0, 0, 1.1201);
 }
 
 /*setting info profil*/
-.resume .profile_info{
-    text-align: center;
+.resume .profile_info {
+  text-align: center;
 }
 
 /*setting pembungkus foto profil*/
-.resume .profile_info .profile_img{
-    width: 150px;
-    margin: 0 auto 5px;
+.resume .profile_info .profile_img {
+  width: 150px;
+  margin: 0 auto 5px;
 }
 
 /*setting foto profil */
-.resume .profile_info .profile_img img{
-    display: block;
-    width: 100%;
-    border-radius: 50%;
+.resume .profile_info .profile_img img {
+  display: block;
+  width: 100%;
+  border-radius: 50%;
 }
 
 /*setting data profil*/
-.resume .profile_info .data_profile .nama{
-    font-size: 21px;
-    margin-bottom: 1px;
-    font-family: 'trade winds';
+.resume .profile_info .data_profile .nama {
+  font-size: 21px;
+  margin-bottom: 1px;
+  font-family: 'trade winds';
 }
 
-.resume .profile_info .data_profile span{
-    color: #697c8e;
-    
+.resume .profile_info .data_profile span {
+  color: #697c8e;
 }
 
-.resume .profile_info .data_profile .garis{
-    border-bottom: 1px solid gray;
-    padding-bottom: 30px;
+.resume .profile_info .data_profile .garis {
+  border-bottom: 1px solid gray;
+  padding-bottom: 30px;
 }
 
-
-.perkenalan{
-  background: ;
+.perkenalan {
   padding-top: 40px;
 }
 
-.perkenalan .teks{
+.perkenalan .teks {
   text-align: justify;
   font-size: 12px;
 }
 
-
 /*setting judul*/
 .resume .title {
-    font-size: 17px;
-    font-weight: 700;
-    color: #0B1C40;
-    margin-bottom: 16px;
-    text-align: center;
+  font-size: 17px;
+  font-weight: 700;
+  color: #0b1c40;
+  margin-bottom: 16px;
+  text-align: center;
 }
 
 /* setting skills */
 /* .skills ul */
 
 /*setting info selengkapnya*/
-.full_info_wrap .tabs ul{
-    display: flex;
-    width: 100%;
-    height: 37px;
-    border: 1px solid gray;
-    border-radius: 4px;
+.full_info_wrap .tabs ul {
+  display: flex;
+  width: 100%;
+  height: 37px;
+  border: 1px solid gray;
+  border-radius: 4px;
 }
 
 .full_info_wrap .tabs ul li {
-    padding: 10px 15px;
-    width: 33.35%;
-    height: 100%;
-    text-align: center;
-    border-right: 1px solid gray;
-    background: #F2DF80;
-    color: #0D0D0D;
-    font-weight: 600;
-    cursor: pointer;
+  padding: 10px 15px;
+  width: 33.35%;
+  height: 100%;
+  text-align: center;
+  border-right: 1px solid gray;
+  background: #f2df80;
+  color: #0d0d0d;
+  font-weight: 600;
+  cursor: pointer;
 }
 
-.full_info_wrap .tabs ul li:last-child{
-    border-right: 0px;
+.full_info_wrap .tabs ul li:last-child {
+  border-right: 0px;
 }
 
-.full_info_wrap .tabs ul li:hover ,
-.full_info_wrap .tabs ul li.active{
-    background: white;
-    color: blue;
-    border-bottom: 1px solid white;
+.full_info_wrap .tabs ul li:hover,
+.full_info_wrap .tabs ul li.active {
+  background: white;
+  color: blue;
+  border-bottom: 1px solid white;
 }
 
 .full_info {
-    padding-top: 15px;
-    height: 295px;
-    background: white;
-    overflow: auto;
+  padding-top: 15px;
+  height: 295px;
+  background: white;
+  overflow: auto;
 }
 
 .bungkus_skil {
@@ -166,7 +159,7 @@ body {
   width: 60%;
   margin: 0 5px;
   height: 5px;
-  background: #F2CB07;
+  background: #f2cb07;
   position: relative;
 }
 
@@ -179,7 +172,7 @@ body {
   top: 0;
   left: 0;
   height: 100%;
-  background: #0B1C40;
+  background: #0b1c40;
 }
 
 .bungkus_hobi {
@@ -202,7 +195,7 @@ body {
   width: 60%;
   margin: 0 5px;
   height: 5px;
-  background:  #F2CB07;
+  background: #f2cb07;
   position: relative;
 }
 
@@ -215,7 +208,7 @@ body {
   top: 0;
   left: 0;
   height: 100%;
-  background: #0B1C40;
+  background: #0b1c40;
 }
 .bungkus_speak {
   width: 100%;
@@ -239,7 +232,7 @@ body {
   width: 85%;
   margin: 0 5px;
   height: 5px;
-  background: #F2CB07;
+  background: #f2cb07;
   position: relative;
 }
 
@@ -253,79 +246,111 @@ body {
   top: 0;
   left: 0;
   height: 100%;
-  background: #0B1C40;
+  background: #0b1c40;
 }
 
-.resume .resume_speak .ikon_flag{
+.resume .resume_speak .ikon_flag {
   width: 15px;
 }
 
 .info_wrap {
-    padding-left: 5px;
+  padding-left: 5px;
 }
 
 .info_wrap ul li {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
-.info_wrap ul li:last-child{
-    margin-bottom: 0px;
+.info_wrap ul li:last-child {
+  margin-bottom: 0px;
 }
 
-.info_wrap .info_item{
-    padding-left: 15px;
-    padding-top: 10px;
+.info_wrap .info_item {
+  padding-left: 15px;
+  padding-top: 10px;
 }
 
-.info_wrap .info_item .info_title{
-    font-weight: 600;
-    margin-bottom: 5px;
+.info_wrap .info_item .info_title {
+  font-weight: 600;
+  margin-bottom: 5px;
 }
 
-
-.info_wrap .info_item .data{
-    font-size: 12px;
-    text-align: justify;
-    padding-right: 5px;
+.info_wrap .info_item .data {
+  font-size: 12px;
+  text-align: justify;
+  padding-right: 5px;
 }
 
-.info_wrap .info_item .data .img_projek{
-    width: 100%;
+.info_wrap .info_item .data .img_projek {
+  width: 100%;
 }
 
-.contact .info_wrap ul li span{
-    display: inline-block;
+.contact .info_wrap ul li span {
+  display: inline-block;
 }
 
-.contact .info_wrap ul li span .bun_i{
+.contact .info_wrap ul li span .bun_i {
   width: 25px;
   padding-left: 7px;
   padding-top: 4px;
 }
 
-.contact .info_wrap ul li span .icon{
+.contact .info_wrap ul li span .icon {
   width: 20px;
-
 }
 
-.contact .info_wrap ul li span.info_m{
-    width: 150px;
-  }
-  
-.contact .info_wrap ul li span.info_n{
-    font-weight: 600;
+.contact .info_wrap ul li span.info_m {
+  width: 150px;
 }
 
-.contact .info_wrap ul li span.info_n a{
+.contact .info_wrap ul li span.info_n {
+  font-weight: 600;
+}
+
+.contact .info_wrap ul li span.info_n a {
   color: black;
 }
 
-.portfolio .info_item .data span{
+.portfolio .info_item .data span {
   display: inline-block;
   margin-left: 40px;
 }
 
-.education .info_item .data span{
+.education .info_item .data span {
   display: inline-block;
   margin-left: 40px;
+}
+/*--responsive--*/
+@media (max-width: 800px) {
+  html {
+    margin-top: 60px;
+    margin-bottom: 40px;
+  }
+  .wrapper {
+    margin: auto;
+  }
+  .resume {
+    margin: auto;
+    width: 90%;
+  }
+  .bungkus_skil {
+    margin: auto;
+    width: 100%;
+    width: 155px;
+  }
+  .bungkus_hobi {
+    margin: auto;
+    width: 100%;
+    width: 155px;
+  }
+
+  .hobi_name {
+    font-size: 4.5px;
+  }
+  .skill_name {
+    font-size: 4.5px;
+  }
+  .speak_name {
+    font-size: 5px;
+  }
 }
