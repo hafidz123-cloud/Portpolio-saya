@@ -321,7 +321,8 @@ body {
   margin-left: 40px;
 }
 /*--responsive--*/
-@media (max-width: 800px) {
+
+@media (max-width: 700px) {
   html {
     margin-top: 60px;
     margin-bottom: 40px;
@@ -358,5 +359,120 @@ body {
   }
   .info_wrap .info_n {
     font-size: 7.6px;
+  }
+}
+@media (max-width: 600px) {
+  html {
+    margin-top: 60px;
+    margin-bottom: 40px;
+  }
+  .wrapper {
+    margin: auto;
+  }
+  .resume {
+    margin: auto;
+    width: 100%;
+  }
+  .bungkus_skil {
+    margin: auto;
+    width: 100%;
+    width: 250px;
+  }
+  .bungkus_hobi {
+    margin: auto;
+    width: 100%;
+    width: 280px;
+  }
+  .hobi_name {
+    font-size: 10px;
+  }
+  .skill_name {
+    font-size: 10px;
+  }
+  .speak_name {
+    font-size: 10px;
+  }
+  .info_wrap .info_m {
+    font-size: 15px;
+  }
+  .info_wrap .info_n {
+    font-size: 15px;
+  }
+}
+@media (max-width: 500px) {
+  html {
+    margin-top: 60px;
+    margin-bottom: 40px;
+  }
+  .wrapper {
+    margin: auto;
+  }
+  .resume {
+    margin: auto;
+    width: 100%;
+  }
+  .bungkus_skil {
+    margin: auto;
+    width: 100%;
+    width: 190px;
+  }
+  .bungkus_hobi {
+    margin: auto;
+    width: 100%;
+    width: 190px;
+  }
+}
+
+@media (max-width: 400px) {
+  html {
+    margin-top: 60px;
+    margin-bottom: 40px;
+  }
+  .wrapper {
+    margin: auto;
+  }
+  .resume {
+    margin: auto;
+    width: 100%;
+  }
+  .bungkus_skil {
+    margin: auto;
+    width: 100%;
+    width: 160px;
+  }
+  .bungkus_hobi {
+    margin: auto;
+    width: 100%;
+    width: 160px;
+  }
+
+  .hobi_name {
+    font-size: 4.5px;
+  }
+  .skill_name {
+    font-size: 4.5px;
+  }
+  .speak_name {
+    font-size: 5px;
+  }
+  .info_wrap .info_m {
+    font-size: 10px;
+  }
+  .info_wrap .info_n {
+    font-size: 7.6px;
+  }
+}
+
+@media (min-width: 800px) {
+  html {
+    margin-top: 50px;
+    margin-bottom: 40px;
+  }
+}
+
+@media (min-width: 900px) {
+  html {
+    margin-top: 60px;
+    margin-bottom: 40px;
   }
 }
